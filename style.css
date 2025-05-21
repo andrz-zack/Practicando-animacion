@@ -42,7 +42,7 @@ body {
   transform-style: preserve-3d;
   transform: rotateX(70deg) translateY(-47vmin) translateZ(13.82vmin);
   animation: animate 3s ease-in-out calc(var(--p) * 0.04s) infinite;
-  visibility: hidden;
+  visibility: visible;
 }
 
 @keyframes animate {
